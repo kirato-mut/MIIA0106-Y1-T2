@@ -1,8 +1,0 @@
-lab_2cp:
-	@clear
-	@echo "--| Compile and Running lab_2/lab_2.cpp |--"
-	g++ lab_2/lab_2.cpp -o main && ./main
-	@echo "--| Running lab_2 python |--"
-	python3 lab_2/lab_2.py
-	@echo "--| Running lab_2 python |--"
-	python3 lab_2/lab_2.py
