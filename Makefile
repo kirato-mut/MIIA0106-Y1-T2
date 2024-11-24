@@ -4,3 +4,5 @@ lab_2cp:
 	g++ lab_2/lab_2.cpp -o main && ./main
 	@echo "--| Running lab_2 python |--"
 	python3 lab_2/lab_2.py
+	@echo "--| Running lab_2 python |--"
+	python3 lab_2/lab_2.py
