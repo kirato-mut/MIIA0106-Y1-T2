@@ -25,6 +25,10 @@ public:
 class DivisionCalculator : public MultiplicationCalculator {
 public:
     int divide(int a, int b) {
+        if(b == 0) {
+            cout << "Error: Cannot divide by zero." << endl;
+            return 0;
+        }
         return a / b;
     }
 };
@@ -39,6 +43,8 @@ int main() {
     cout << "Multiplication (10 * 5): " << mulCalc.multiply(10, 5) << endl;
 
     cout << "Division (10 / 5): " << mulCalc.divide(10, 5) << endl;
+
+    cout << "Division (10 / 0): " << mulCalc.divide(10, 0) << endl;
 
     return 0;
 }

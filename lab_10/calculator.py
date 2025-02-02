@@ -12,6 +12,8 @@ class MultiplicationCalculator(SubtractionCalculator):
 
 class DivisionCalculator(MultiplicationCalculator):
     def divide(self, a, b):
+        if b == 0:
+            return "Cannot divide by zero"
         return a / b
 
 if __name__ == "__main__":
@@ -24,4 +26,6 @@ if __name__ == "__main__":
     print(f"Multiplication (10 * 5): {mul_calc.multiply(10, 5)}")
 
     print(f"Division (10 / 5): {mul_calc.divide(10, 5)}")
+
+    print(f"Division (10 / 0): {mul_calc.divide(10, 0)}")
 
