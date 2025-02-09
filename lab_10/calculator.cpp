@@ -27,7 +27,7 @@ public:
     int divide(int a, int b) {
         if(b == 0) {
             cout << "Error: Cannot divide by zero." << endl;
-            return 0;
+            exit(1);
         }
         return a / b;
     }
