@@ -1,5 +1,4 @@
-hello
-Word
-I'm python !
-6711860001
-
+Hello
+World
+Python
+first initial
